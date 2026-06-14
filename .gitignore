@@ -1,0 +1,18 @@
+# Binaries
+/gateway
+/bin/
+*.exe
+*.out
+
+# Test / coverage
+*.test
+coverage.out
+
+# Env / secrets (real API keys land here from M9 — never commit)
+.env
+.env.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
